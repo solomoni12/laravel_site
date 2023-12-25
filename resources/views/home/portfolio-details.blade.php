@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+
+  <title>Portfolio Details</title>
+  <meta content="" name="description">
+  <meta content="" name="keywords">
+
+  <!-- Favicons -->
+  <!-- <link href="assets/img/favicon.png" rel="icon"> -->
+  <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon">
+
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Raleway:300,300i,400,400i,500,500i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i" rel="stylesheet">
+
+  <!-- Vendor CSS Files -->
+  <link href="frontend/assets/vendor/animate.css/animate.min.css" rel="stylesheet">
+  <link href="frontend/assets/vendor/aos/aos.css" rel="stylesheet">
+  <link href="frontend/assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <link href="frontend/assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
+  <link href="frontend/assets/vendor/boxicons/css/boxicons.min.css" rel="stylesheet">
+  <link href="frontend/assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
+  <link href="frontend/assets/vendor/remixicon/remixicon.css" rel="stylesheet">
+  <link href="frontend/assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
+
+  <!-- Template Main CSS File -->
+  <link href="frontend/assets/css/style.css" rel="stylesheet">
+
+
+</head>
+
+<body>
+
+  <!-- ======= Header ======= -->
+  <header id="header" class="fixed-top d-flex align-items-center ">
+    <div class="container d-flex align-items-center justify-content-between">
+
+      <div class="logo">
+        <h1><a href="index.html">Solomon Developer</a></h1>
+        <!-- Uncomment below if you prefer to use an image logo -->
+        <!-- <a href="index.html"><img src="assets/img/logo.png" alt="" class="img-fluid"></a>-->
+      </div>
+
+      <nav id="navbar" class="navbar">
+        <ul>
+          <li><a class="nav-link scrollto active" href="{{url('home')}}">Home</a></li>
+          <li><a class="nav-link scrollto" href="{{url('home')}}">About Us</a></li>
+          <li><a class="nav-link scrollto" href="{{url('home')}}">Services</a></li>
+          <li><a class="nav-link scrollto" href="{{url('home')}}">Work</a></li>
+          <li><a class="nav-link scrollto" href="{{url('home')}}">Team</a></li>
+          <li><a class="nav-link scrollto" href="{{url('home')}}">Contact Us</a></li>
+        </ul>
+        <i class="bi bi-list mobile-nav-toggle"></i>
+      </nav>
+      <!-- .navbar -->
+
+    </div>
+  </header><!-- End Header -->
+
+  <main id="main">
+
+    <!-- ======= Breadcrumbs ======= -->
+    <section id="breadcrumbs" class="breadcrumbs">
+      <div class="container">
+
+        <div class="d-flex justify-content-between align-items-center">
+          <h2>Project Details</h2>
+          <ol>
+            <li><a href="{{url('home')}}">Home</a></li>
+            <li>Project Details</li>
+          </ol>
+        </div>
+
+      </div>
+    </section><!-- End Breadcrumbs -->
+
+    <!-- ======= Portfolio Details Section ======= -->
+    <section id="portfolio-details" class="portfolio-details">
+      <div class="container">
+
+        <div class="row gy-4">
+
+          <div class="col-lg-8">
+            <div class="portfolio-details-slider swiper">
+              <div class="swiper-wrapper align-items-center">
+
+                <div class="swiper-slide">
+                  <img src="frontend/assets/img/portfolio/4.png" alt="">
+                </div>
+
+                <div class="swiper-slide">
+                  <img src="frontend/assets/img/portfolio/5.png" alt="">
+                </div>
+
+                <div class="swiper-slide">
+                  <img src="frontend/assets/img/portfolio/1.jpg" alt="">
+                </div>
+
+              </div>
+              <div class="swiper-pagination"></div>
+            </div>
+          </div>
+
+          <div class="col-lg-4">
+            <div class="portfolio-info">
+              <h3>Project information</h3>
+              <ul>
+                <li><strong>Category</strong>: Web design</li>
+                <!-- <li><strong>Client</strong>: ASU Company</li> -->
+                <!-- <li><strong>Project date</strong>: 01 March, 2020</li> -->
+                <li><strong>GitHub Project URL</strong>: <a href="https://github.com/solomoni12/OBCS">https://github.com/solomoni12/OBCS</a></li>
+              </ul>
+            </div>
+            <div class="portfolio-description">
+              <h2>Online Birth Certificate Project (Obcs)</h2>
+              <p>
+                A Online Birth Certificate with Laravel Framework (backend) and Angular 14 Framework (frontend). Online Birth Certificate System maintains a good record 
+                of date of birth of people. This system helps admin to view data of date of birth of people who reside in country. The main objective of “Online Birth 
+                Certificate System” project is to provide privacy of data and providing easier registration of date of birth and gets certificate of birth online which save lots of time.
+              </p>
+            </div>
+          </div>
+
+        </div>
+
+      </div>
+    </section><!-- End Portfolio Details Section -->
+
+  </main><!-- End #main -->
+
+  <!-- ======= Footer ======= -->
+  <footer id="footer">
+    <div class="container">
+       <h4>Follow us</h4>
+      <div class="social-links">
+        <!-- <a href="#" class="twitter"><i class="bx bxl-twitter"></i></a> -->
+        <a href="https://www.facebook.com/solomon.mwalupani?mibextid=LQQJ4d" class="facebook"><i class="bx bxl-facebook"></i></a>
+        <a href="https://wa.me/message/7PEPIIJ2JBYSI1" class="whatsapp"><i class="bx bxl-whatsapp"></i></a>
+        <a href="https://www.instagram.com/mwalupanisolomon/" class="instagram"><i class="bx bxl-instagram"></i></a>
+        <a href="https://www.linkedin.com/in/solomon-mwalupani-08225b25b/" class="linkedin"><i class="bx bxl-linkedin"></i></a>
+      </div>
+      <div class="copyright">
+        &copy; Copyright <strong><span>Sologroup</span></strong>. All Rights Reserved
+      </div>
+      <div class="credits">
+
+        Designed by <a href="https://solo.com/">Solomon Developer</a>
+      </div>
+    </div>
+  </footer>
+  <!-- End Footer -->
+
+  <a href="#" class="back-to-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
+
+  <!-- Vendor JS Files -->
+  <script src="frontend/assets/vendor/aos/aos.js"></script>
+  <script src="frontend/assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script src="frontend/assets/vendor/glightbox/js/glightbox.min.js"></script>
+  <script src="frontend/assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
+  <script src="frontend/assets/vendor/swiper/swiper-bundle.min.js"></script>
+  <script src="frontend/assets/vendor/php-email-form/validate.js"></script>
+
+  <!-- Template Main JS File -->
+  <script src="frontend/assets/js/main.js"></script>
+
+</body>
+
+</html>

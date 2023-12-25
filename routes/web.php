@@ -1,6 +1,7 @@
 <?php
 
 use Illuminate\Support\Facades\Route;
+use App\Http\Controllers\HomeController;
 
 /*
 |--------------------------------------------------------------------------
@@ -26,3 +27,8 @@ Route::middleware([
         return view('dashboard');
     })->name('dashboard');
 });
+
+
+Route::get('home', [HomeController::class,'index']);
+Route::get('portifolio', [HomeController::class,'portifolio']);
+Route::get('portifolio2', [HomeController::class,'portifolio2']);
