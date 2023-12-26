@@ -32,3 +32,6 @@ Route::middleware([
 Route::get('home', [HomeController::class,'index']);
 Route::get('portifolio', [HomeController::class,'portifolio']);
 Route::get('portifolio2', [HomeController::class,'portifolio2']);
+
+// admin route
+Route::get('admin_data', [HomeController::class,'admin']);

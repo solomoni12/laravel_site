@@ -18,4 +18,9 @@ class HomeController extends Controller
     public function portifolio2(){
         return View('home.portfolio-details2');
     }
+
+    public function admin(){
+        return View('admin.index');
+    }
+
 }
